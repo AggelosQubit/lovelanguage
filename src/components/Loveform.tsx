@@ -101,6 +101,7 @@ let FormQuestion : [string,number,boolean?][]  = [
     return (
         <div className="row" >
             <table className="table">
+                
                 <tr> <th></th> <th>Question Description</th><th>Classification</th> </tr>   
             {
                 (() => {
