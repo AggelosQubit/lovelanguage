@@ -1,3 +1,6 @@
-.titleNav{
-    color: white;
+#titleBehavior{
+    color: wheat;
+}
+#titleBehavior:hover{
+    color: coral;
 }

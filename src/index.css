@@ -1,0 +1,25 @@
+/*****************************
+ All rights reserved.
+ AllFont.net (c) 2011-2015
+ *****************************/
+ @font-face {
+    font-family: 'Agency FB';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/assets/AgencyFB-Bold.ttf);
+}
+
+body,html{
+	font-family: 'Agency FB';
+	min-height: 100vh;
+
+    	/*Parallax Effect*/
+	min-height: 100vh;
+	background-image: url('/public/img/LLL1_HD.png') ;
+	/*background-image: url('./assets/aba035ac0ef13a0833ca3d3ecc4e592f.jpg') ;*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
