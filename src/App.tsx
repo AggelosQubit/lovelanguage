@@ -1,4 +1,4 @@
-import LoveForm	from './components/Loveform';
+import LoveForm	from './components/LoveformComponent/Loveform';
 import './App.css';
 import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
 import NavBarComponent from './components/NavBarComponent/NavBarComponent';
@@ -10,23 +10,15 @@ function App(){
 
 		<Router>
 			<div className="App">
+				<NavBarComponent/>
 				<Routes>
+					<Route path='/' /> 
 					<Route path='/' />
-
-
-					<Route path='/' />
-					<Route path='/' />
-					<Route path='/' />
-					<Route path='/' />
-					<Route path='/' />
-
 					<Route path='/KnowYourLL' element={<LoveForm/>} />
 
 					<Route path='/' />
 
 				</Routes>
-				
-				<NavBarComponent/>
 				<FooterComponent/>
 			</div>
 		</Router>

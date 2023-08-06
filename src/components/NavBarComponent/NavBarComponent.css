@@ -1,6 +1,19 @@
+.generalComponent{
+    padding: 0px;
+    flex-basis: auto;
+}
 #titleBehavior{
     color: wheat;
 }
 #titleBehavior:hover{
     color: coral;
+}
+
+.searchElement{
+    border: solid 1px red;
+}
+
+.langagesElement{
+    flex-grow: unset;
+    border: solid 1px blue;
 }
