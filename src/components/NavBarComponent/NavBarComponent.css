@@ -1,7 +1,25 @@
+/********************ELEMENTS********************/
 .generalComponent{
-    padding: 0px;
-    flex-basis: auto;
+    display: flex;
+    border: solid 1px yellow;
+    background-color:rgb(40, 40, 43);
+    align-items: center;
+    justify-content: space-around;
 }
+
+.langagesElement{
+    flex-grow: unset;
+    border: solid 1px blue;
+}
+.KnowYourLL{
+
+}
+.searchElement{
+    display: flex;
+    border: solid 1px red;
+}
+
+/*******************GENERAL CSS*******************/
 #titleBehavior{
     color: wheat;
 }
@@ -9,11 +27,5 @@
     color: coral;
 }
 
-.searchElement{
-    border: solid 1px red;
-}
 
-.langagesElement{
-    flex-grow: unset;
-    border: solid 1px blue;
-}
+
