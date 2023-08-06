@@ -11,11 +11,9 @@
     flex-grow: unset;
     border: solid 1px blue;
 }
-.KnowYourLL{
 
-}
 .searchElement{
-    display: flex;
+    
     border: solid 1px red;
 }
 
@@ -27,5 +25,13 @@
     color: coral;
 }
 
+.centerIt{
+    justify-self: center;
+}
+.paddingItem{
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
 
-
+}
