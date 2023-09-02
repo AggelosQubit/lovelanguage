@@ -23,8 +23,8 @@ function NavBarComponent() {
                 <a href="/KnowYourLL" id="titleBehavior"> Connaître Votre Langage 💻</a>
             </div>
             <div className="d-none d-md-block searchElement">
-                <FormControl type="search" placeholder="Search" aria-label="Search" />
-                <Button variant="outline-success">Search</Button>
+                <input className="form-control" type="search" placeholder="Search" aria-label="Search" />
+                <button className="btn btn-success form-control">Search</button>
             </div>
             <div className="d-sm-none">
                 <NavDropdown align="end" className='centerIt' title="Menu" id="titleBehavior">

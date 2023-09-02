@@ -1,0 +1,18 @@
+.HomeGeneralComponent{
+    height: 100%;
+    height: 100%;
+    display: grid;
+}
+ 
+.HomeTitleComponent{
+    width: 100%;
+    color:black;
+    justify-content: center;
+    text-align: center;
+    background-image: url("/src/assets/coupleInLove.png");
+    background-repeat: no-repeat;
+    height: 302px;
+}
+.HomeImageComponentImage{
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+.app{
+    display: grid;
+}
+
+.NavBarComponent{
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+}
+
+.ChargedComponent{
+    padding-top: 50px;
+}
