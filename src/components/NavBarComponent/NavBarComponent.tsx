@@ -22,9 +22,12 @@ function NavBarComponent() {
             <div className="d-none d-md-block" >
                 <a href="/KnowYourLL" id="titleBehavior"> Connaître Votre Langage 💻</a>
             </div>
+            <div className="d-none d-md-block" >
+                <a href="/" id="titleBehavior"> Love Language Merchandise</a>
+            </div>
             <div className="d-none d-md-block searchElement">
                 <input className="form-control" type="search" placeholder="Search" aria-label="Search" />
-                <button className="btn btn-success form-control">Search</button>
+                <button className="btn btn-success searchElementButton">Search</button>
             </div>
             <div className="d-sm-none">
                 <NavDropdown align="end" className='centerIt' title="Menu" id="titleBehavior">

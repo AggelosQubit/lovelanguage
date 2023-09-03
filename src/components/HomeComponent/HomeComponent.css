@@ -3,17 +3,45 @@
     height: 100%;
     display: grid;
 }
- 
-.HomeTitleComponent{
-    width: 100%;
-    color:black;
-    justify-content: center;
-    text-align: center;
-    background-image: url("/src/assets/coupleInLove.png");
-    background-repeat: no-repeat;
-    height: 302px;
-}
 
+.HomeTitleComponent{
+    color:black;
+    text-align: center;
+}
+.HomeContentComponent{
+    display: flex;
+    justify-content: space-around;
+}
 .HomeImageComponentImage{
     width: 100%;
+}
+
+.languageCardElement{
+    color: wheat;
+    background-color: rgb(32, 32, 32);
+    height: 350px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    width: 270px;
+    text-align: center;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+.languageCardTitleElement{
+    margin-top: 25px ;
+}
+.languageCardImageElement{
+    height: 200px;
+    width: 200px;
+}
+
+.languageCardElement .toAppearOnHover{
+    opacity: 0;
+    margin-top: 70px;
+}
+.languageCardElement:hover .toAppearOnHover{
+    opacity: 1;
+    transition: opacity 2s ease, transform 1s ease;
+    transform: translateY(-55px);
+    
+    
 }
